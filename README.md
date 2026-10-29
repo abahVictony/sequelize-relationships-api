@@ -37,29 +37,29 @@ The relationship is implemented using Sequelize associations:
 - User.hasMany(Post)
 - Post.belongsTo(User)
 
-## API Endpoints
+API Endpoints
 
-### User Routes
+User Routes
 
-Method         |         Endpoint                 |           Description 
+Method-Endpoint-Description 
 
-POST           |         /newUser                 |           Create a new user 
-GET            |         /getAllUsers            |           Get all users
-GET            |         /getOneUser/:id          |           Get a user by ID
-PATCH          |         /updateUser/:id          |           Update a user
-DELETE         |         /deleteUser/:id          |           Delete a user 
+POST-/newUser-Create a new user 
+GET-/getAllUsers-Get all users
+GET-/getOneUser/:id-Get a user by ID
+PATCH-/updateUser/:id-Update a user
+DELETE-/deleteUser/:id-Delete a user 
 
-### Post Routes
+Post Routes
 
-| Method       |         Endpoint                 |           Description
+Method-Endpoint-Description
 
-POST           |         /newPost                 |           Create a new post
-GET            |         /allPosts                |           Get all posts
-GET            |         /getOnePost/:id          |           Get a post by ID
-PATCH          |         /updatePost/:id          |           Update a post
-DELETE         |         /deletePost/:id          |           Delete a post
+POST-/newPost-Create a new post
+GET-/allPosts-Get all posts
+GET-/getOnePost/:id-Get a post by ID
+PATCH-/updatePost/:id-Update a post
+DELETE-/deletePost/:id-Delete a post
 
-*Note: Add the route prefixes used in your main application file when constructing the complete API URLs.*
+Note: Add the route prefixes used in your main application file when constructing the complete API URLs.*
 
 Installation and Setup
 
